@@ -31,7 +31,7 @@
                                     <span class="main-slider-two__title__text">Services</span>
                                 </h2><!-- slider-title -->
                                 <p class="main-slider-two__text">
-                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Rerum, accusantium.
+                               We are providing holistic care, education, and guidance to empower children for a brighter future.
                                 </p>
                                 <div class="main-slider-two__btn">
                                     <a href="{{route('about')}}" class="careox-btn"><span>See More</span></a><!-- slider-btn -->
@@ -58,7 +58,7 @@
                                     <span class="main-slider-two__title__text">Programs</span>
                                 </h2><!-- slider-title -->
                                 <p class="main-slider-two__text">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Rerum, accusantium.
+                                We promote wellness and awareness with tailored programs for healthier, informed communities.
                                 </p>
                                 <div class="main-slider-two__btn">
                                     <a href="{{route('about')}}" class="careox-btn"><span>See More</span></a><!-- slider-btn -->
@@ -85,7 +85,7 @@
                                     <span class="main-slider-two__title__text">Income Opportunities</span>
                                 </h2><!-- slider-title -->
                                 <p class="main-slider-two__text">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Rerum, accusantium.
+                                We are building independence and resilience through tailored skills and income-generating opportunities for women.
                                 </p>
                                 <div class="main-slider-two__btn">
                                     <a href="{{route('about')}}" class="careox-btn"><span>See More</span></a><!-- slider-btn -->
