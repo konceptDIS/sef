@@ -24,9 +24,9 @@
                             </div>
                             <h3 class="event-details__title">SEF Sallah Party</h3>
                             <p class="event-details__text">
-                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, provident adipisci? Consectetur numquam omnis doloremque et mollitia at laboriosam id libero est quae quos amet beatae excepturi minus, ex tenetur quas recusandae dicta dolore enim tempore blanditiis vero nesciunt? Voluptatum dolor amet modi at natus ipsum, vitae, quia quae, aliquam accusantium cum fuga autem! Assumenda, alias quia. Vel sunt atque ad maxime sequi possimus suscipit provident, amet, adipisci, velit consectetur dolorum. Modi, cum beatae vero consequuntur, quaerat, cumque esse animi commodi fuga molestiae magnam optio mollitia doloribus id sed! A praesentium sapiente ipsum. Totam at exercitationem voluptatibus error inventore animi.
+                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, provident adipisci? Consectetur numquam omnis doloremque et mollitia at laborisam id libero est quae quos amet beatae excepturi minus, ex tenetur quas recusandae dicta dolore enim tempore blanditiis vero nesciunt? Voluptatum dolor amet modi at natus ipsum, vitae, quia quae, aliquam accusantium cum fuga autem! Assumenda, alias quia. Vel sunt atque ad maxime sequi possimus suscipit provident, amet, adipisci, velit consectetur dolorum. Modi, cum beatae vero consequuntur, quaerat, cumque esse animi commodi fuga molestiae magnam optio mollitia doloribus id sed! A praesentium sapiente ipsum. Totam at exercitationem voluptatibus error inventore animi.
                             </p>
-                            
+
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -38,7 +38,7 @@
                                 <li>Location: <span>FCT, Abuja</span></li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -50,56 +50,56 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-1.jpg" alt="">
-                            
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-3.jpg" alt="">
-                           
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-4.jpg" alt="">
-                            
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-5.jpg" alt="">
-                            
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-6.jpg" alt="">
-                            
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-7.jpg" alt="">
-                            
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-8.jpg" alt="">
-                            
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-3-10.jpg" alt="">
-                            
+
                         </div><!-- /.gallery-one__card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
         </section><!-- /.gallery-one -->
 
-        
+
 
         <section class="cta-two">
             <div class="cta-two__shape" style="background-image: url(/assets/images/shapes/cta-2-shape-1.png);"></div>
