@@ -6,10 +6,10 @@
             <div class="page-header__bg"></div>
             <!-- /.page-header__bg -->
             <div class="container">
-                <h2 class="page-header__title bw-split-in-left">Blog Details Right Sidebar</h2>
+                <h2 class="page-header__title bw-split-in-left">Blog</h2>
                 <ul class="careox-breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
-                    <li><span>Blog Details</span></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/b/{{$post->link}}">Blog</a></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
             </div><!-- /.container -->
         </section><!-- /.page-header -->
@@ -20,37 +20,30 @@
                     <div class="col-lg-8">
                         <div class="blog-details__content">
                             <div class="blog-details__image">
-                                <img src="/assets/images/blog/blog-details-1-1.jpg" alt="">
+                                <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}" style="height: 350px; width: 100%; object-fit: cover; border-radius: 20px">
                             </div><!-- /.blog-card__image -->
                             <ul class="list-unstyled blog-details__top-meta">
-                                <li class="blog-details__top-meta__cats"><a href="blog-grid.html">Charity</a></li>
-                                <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                <li><i class="icofont-comment"></i>Comment (5)</li>
-                                <li><i class="icofont-ui-calendar"></i>02 Sep 2024</li>
+                                <li class="blog-details__top-meta__cats"><a href="blog-grid.html">{{$post->category->title}}</a></li>
+                                <li>
+                                    <a href="#">
+                                        <img src="https://ui-avatars.com/api/?name={{$post->user->first_name . '+' .$post->user->last_name}}" alt="">Author: {{$post->user->first_name}} {{$post->user->last_name}}
+                                    </a>
+                                </li>
+                                {{-- <li><i class="icofont-comment"></i>Comment (5)</li> --}}
+                                <li><i class="icofont-ui-calendar"></i>{{$post->created_at->format('j M, Y')}}</li>
                             </ul><!-- /.list-unstyled blog-card__top-meta -->
-                            <h3 class="blog-details__title">The Charity for Orphans leading provider of Country Development,<br> Start a Fundraiser for Poor Yourself.</h3>
+                            <h3 class="blog-details__title">{{$post->title}}</h3>
                             <p class="blog-details__text">
-                                There are many variations of passages agency we have covered many special events such as
-                                fireworks, fairs, parades, races, walks, a Lorem Ipsum Fasts injecte dedicated product design
-                                team can help you achieve your business goals. Whether you need to craft an idea for a
-                                completely new product or elevate the quality of an existing solution, we’ll help you to
-                                create a product that is laser targeted to your users’ needs and business results
+                                {!!$post->content!!}
                             </p><!-- /.blog-details__text -->
-                            <p class="blog-details__text">
-                                There are many variations of passages agency we have covered many special events such as
-                                fireworks, fairs, parades, races, walks, a Lorem Ipsum .
-                            </p><!-- /.blog-details__text -->
-                            <p class="blog-details__text">
-                                This are many variations of passages agency we have covered many special events such as
-                                fireworks, fairs, parades, races, walks, a Lorem Ipsumpassages agency we have covered
-                                fireworks, fairs, parades, races, walks, a Lorem Ipsum Fasts injecte.
-                            </p><!-- /.blog-details__text -->
+
                             <div class="blog-details__meta">
                                 <div class="blog-details__tags">
                                     <h4 class="blog-details__tags__title">Tags</h4><!-- /.blog-details__tags__title -->
                                     <div class="sidebar__tags">
-                                        <a href="blog-list-right.html">Beauty</a>
-                                        <a href="blog-list-right.html">Massage</a>
+                                        @foreach ($tags as $tag)
+                                            <a href="javascript:void(0);">{{ trim($tag) }}</a>
+                                        @endforeach
                                     </div><!-- /.sidebar__projects -->
                                 </div><!-- /.blog-details__tags -->
                                 <div class="blog-details__social">
@@ -74,7 +67,7 @@
                             </div><!-- /.blog-details__meta -->
                         </div><!-- /.blog-details -->
 
-                        <div class="comments-one">
+                        {{-- <div class="comments-one">
                             <h3 class="comments-one__title">2 comments</h3><!-- /.comments-one__title -->
                             <ul class="list-unstyled comments-one__list">
                                 <li class="comments-one__card">
@@ -106,7 +99,7 @@
                                     </div><!-- /.comments-one__card__content -->
                                 </li><!-- /.comments-one__card -->
                             </ul><!-- /.list-unstyled comments-one__list -->
-                        </div><!-- /.comments-one -->
+                        </div><!-- /.comments-one --> --}}
 
                         <div class="comments-form">
                             <h3 class="comments-form__title">Leave a comment</h3><!-- /.comments-form__title -->
@@ -140,61 +133,49 @@
                                         </button>
                                     </form><!-- /.sidebar__search -->
                                 </div><!-- /.sidebar__single -->
-                                <div class="sidebar__single">
-                                    <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
-                                    <ul class="sidebar__categories list-unstyled">
-                                        <li><a href="blog-details-right.html">Donations</a>(6)</li>
-                                        <li><a href="blog-details-right.html">Charity</a>(4)</li>
-                                        <li><a href="blog-details-right.html">Food & Water</a>(7)</li>
-                                        <li><a href="blog-details-right.html">Kids education</a>(9)</li>
-                                        <li><a href="blog-details-right.html">Fundraising</a>(10)</li>
-                                    </ul><!-- /.sidebar__categories list-unstyled -->
-                                </div><!-- /.sidebar__single -->
+                                @if (count($categories)>0)
+                                    <div class="sidebar__single">
+                                        <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
+                                        <ul class="sidebar__categories list-unstyled">
+                                            @foreach ($categories as $cat)
+                                                <li>
+                                                    <a href="javascript:void(0);">{{$cat->title}}</a>({{$cat->posts->count()}})
+                                                </li>
+                                            @endforeach
+                                        </ul><!-- /.sidebar__categories list-unstyled -->
+                                    </div><!-- /.sidebar__single -->
+                                @endif
+                                @if (count($tags)>0)
                                 <div class="sidebar__single">
                                     <h4 class="sidebar__title">Tags</h4><!-- /.sidebar__title -->
                                     <div class="sidebar__tags">
-                                        <a href="blog-details-right.html">Charity</a>
-                                        <a href="blog-details-right.html">fundraising</a>
-                                        <a href="blog-details-right.html">donations</a>
-                                        <a href="blog-details-right.html">kids education</a>
-                                        <a href="blog-details-right.html">save water</a>
-                                        <a href="blog-details-right.html">kids</a>
-                                        <a href="blog-details-right.html">animal save</a>
-                                        <a href="blog-details-right.html">NGO charity</a>
+                                        @foreach ($tags as $tag)
+                                        <a href="javascript:void(0);">{{ trim($tag) }}</a>
+                                        @endforeach
                                     </div><!-- /.sidebar__tags -->
                                 </div><!-- /.sidebar__single -->
+                                @endif
+                                @if (count($latest)>0)
                                 <div class="sidebar__single">
-                                    <h4 class="sidebar__title">Recent Post</h4><!-- /.sidebar__title -->
+                                    <h4 class="sidebar__title">Recent Posts</h4><!-- /.sidebar__title -->
                                     <ul class="sidebar__posts list-unstyled">
+                                        @foreach ($latest as $post)
                                         <li class="sidebar__posts__item">
                                             <div class="sidebar__posts__image">
-                                                <img src="/assets/images/blog/lp-1-1.jpg" alt="">
+                                                <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="" style="height: 100px; width:100px; border-radius: 10px; object-fit:cover">
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>Aug 10, 2023</p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">We play chimney pot Chip bonne.</a></h4><!-- /.sidebar__posts__title -->
+                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>  {{$post->created_at->format('j M, Y')}}
+                                                </p><!-- /.sidebar__posts__date -->
+                                                <h4 class="sidebar__posts__title">
+                                                    <a href="/b/{{$post->link}}">{{$post->title}}</a>
+                                                </h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
-                                        <li class="sidebar__posts__item">
-                                            <div class="sidebar__posts__image">
-                                                <img src="/assets/images/blog/lp-1-2.jpg" alt="">
-                                            </div><!-- /.sidebar__posts__image -->
-                                            <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>Aug 10, 2023</p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">Get deep knowledge your beauty</a></h4><!-- /.sidebar__posts__title -->
-                                            </div><!-- /.sidebar__posts__content -->
-                                        </li>
-                                        <li class="sidebar__posts__item">
-                                            <div class="sidebar__posts__image">
-                                                <img src="/assets/images/blog/lp-1-3.jpg" alt="">
-                                            </div><!-- /.sidebar__posts__image -->
-                                            <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>Aug 10, 2023</p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">We round solution of york blog</a></h4><!-- /.sidebar__posts__title -->
-                                            </div><!-- /.sidebar__posts__content -->
-                                        </li>
+                                        @endforeach
                                     </ul><!-- /.sidebar__posts list-unstyled -->
                                 </div>
+                                @endif
                             </aside><!-- /.widget-area -->
                         </div><!-- /.sidebar -->
                     </div><!-- /.col-lg-4 -->

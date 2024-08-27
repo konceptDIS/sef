@@ -118,7 +118,7 @@
                                         <i class="icofont-ui-play"></i></a>Take a Tour
                                 </div>
                             </div>
-                            
+
                             <div class="about-one__image__shape-two"><img src="/assets/images/shapes/about-1-shape-2.png" alt=""></div>
                             <div class="about-one__image__shape-three"><img src="/assets/images/shapes/about-1-shape-3.png" alt=""></div>
                         </div><!-- /.about__image -->
@@ -134,7 +134,7 @@
                             <p class="about-one__content__text">
                                 Sam Empowerment Foundation (SEF) is a structured NGO based in Abuja, Nigeria, dedicated to providing humanitarian services to vulnerable groups. Registered with the Corporate Affairs Commission (CAC/IT/NO 70103), SEF employs professionals skilled in community mobilization on issues such as HIV/AIDS, Malaria, Nutrition, Menstrual Hygiene, Sexual and Gender-Based Violence (SGBV), and Water and Sanitation Hygiene (WASH).
                             </p>
-                            
+
                             <div class="about-one__content__border"></div>
                             <ul class="about-one__content__list">
                                 <li>
@@ -241,7 +241,7 @@
                             </div>
                         </div><!-- /.service-card-one -->
                     </div>
-                   
+
                 </div>
             </div>
         </section>
@@ -430,7 +430,7 @@
                                 </div><!-- /.donate-three__form__amount__buttons -->
                                 <div class="donate-three__form__submit">
                                     <button type="submit" class="careox-btn"><span>Donate Now</span></button>
-                                    
+
                                 </div>
                             </form>
                         </div>
@@ -444,79 +444,74 @@
 
                     <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__border"></span>News & articles</h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Latest Updates <br> and Stories</h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Latest Stories</h3><!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row gutter-y-30">
                     <div class="col-lg-5">
+                        @if($latestPost)
                         <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms' style='--accent-color: #37B1C1;'>
-                            <div class="blog-card__image">
-                                <img src="/assets/images/blog/blog-1-1.jpg" alt="">
-                                <img src="/assets/images/blog/blog-1-1.jpg" alt="">
-                                <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, blanditiis.</span>
-                                    <!-- /.sr-only --></a>
-                                <div class="blog-card__date"><i class="icofont-ui-calendar"></i>02 Sep 2024</div><!-- /.blog-card__date -->
+                            <div class="blog-card__image" style="height: 300px; object-fit:cover;">
+                                <img src="{{ asset('/storage/images/'.$latestPost->thumbnail) }}" alt="{{$latestPost->title}}" style="height: 300px; object-fit:cover;">
+                                <img src="{{ asset('/storage/images/'.$latestPost->thumbnail) }}" alt="{{$latestPost->title}}" style="height: 300px; object-fit:cover;">
+                                <a href="/b/{{$latestPost->link}}" target="_blank" class="blog-card__image__link">
+                                    <span class="sr-only">{{$latestPost->title}}</span>
+                                    <!-- /.sr-only -->
+                                </a>
+                                <div class="blog-card__date"><i class="icofont-ui-calendar"></i>{{$latestPost->created_at->format('j M, Y')}}</div><!-- /.blog-card__date -->
                             </div><!-- /.blog-card__image -->
                             <div class="blog-card__content">
                                 <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                    
+                                    <li>
+                                        <a href="/b/{{$latestPost->link}}" target="_blank">
+                                            <img src="https://ui-avatars.com/api/?name={{$latestPost->user->first_name . '+' .$latestPost->user->last_name}}" alt="Author: {{$latestPost->user->first_name}} {{$latestPost->user->last_name}}">Author: {{$latestPost->user->first_name}} {{$latestPost->user->last_name}}
+                                        </a>
+                                    </li>
                                 </ul><!-- /.list-unstyled blog-card__meta -->
-                                <h3 class="blog-card__title"><a href="blog-details-right.html">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a></h3><!-- /.blog-card__title -->
+                                <h3 class="blog-card__title"><a href="/b/{{$latestPost->link}}" target="_blank">{{$latestPost->title}}</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card__text">
-                                    We poor standard chunk nibh velit majority suffered alteration in some form aliquet sollic tudin.
+                                    {{$latestPost->excerpt}}
                                 </p><!-- /.blog-card__text -->
-                                <a href="blog-details-right.html" class="blog-card__link">
+                                <a href="/b/{{$latestPost->link}}" target="_blank" class="blog-card__link">
                                     <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
                                     <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
                                 </a><!-- /.blog-card__link -->
                             </div><!-- /.blog-card__content -->
                         </div><!-- /.blog-card -->
+                        @else
+                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms' style='--accent-color: #37B1C1;'> There are no Posts yet. </div>
+                        @endif
                     </div><!-- /.item -->
                     <div class="col-lg-7">
-                        <div class="blog-card blog-card--reverse wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms' style='--accent-color: #37B1C1;'>
-                            <div class="blog-card__content">
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                    
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                                <h3 class="blog-card__title"><a href="blog-details-right.html">Lorem ipsum dolor sit amet consectetur.</a></h3><!-- /.blog-card__title -->
-                                <p class="blog-card__text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorem.
-                                </p><!-- /.blog-card__text -->
-                                <a href="blog-details-right.html" class="blog-card__link">
-                                    <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
-                                    <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                </a><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                            <div class="blog-card__image">
-                                <img src="/assets/images/blog/blog-1-2.jpg" alt="">
-                                <img src="/assets/images/blog/blog-1-2.jpg" alt="">
-                                <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-                                    <!-- /.sr-only --></a>
-                            </div><!-- /.blog-card__image -->
-                        </div><!-- /.blog-card -->
-                        <div class="blog-card blog-card--reverse wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='150ms' style='--accent-color: #37B1C1;'>
-                            <div class="blog-card__content">
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                    
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                                <h3 class="blog-card__title"><a href="blog-details-right.html">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h3><!-- /.blog-card__title -->
-                                <p class="blog-card__text">
-                                    We poor standard chunk ofI nibh velit auctor aliquet sollic tudin.
-                                </p><!-- /.blog-card__text -->
-                                <a href="blog-details-right.html" class="blog-card__link">
-                                    <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
-                                    <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                </a><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                            <div class="blog-card__image">
-                                <img src="/assets/images/blog/blog-1-3.jpg" alt="">
-                                <img src="/assets/images/blog/blog-1-3.jpg" alt="">
-                                <a href="blog-details-right.html" class="blog-card__image__link"><span class="sr-only">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, doloremque?</span>
-                                    <!-- /.sr-only --></a>
-                            </div><!-- /.blog-card__image -->
-                        </div><!-- /.blog-card -->
+                        @if($otherPosts)
+                            @foreach($otherPosts as $post)
+                                <div class="blog-card blog-card--reverse wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms' style='--accent-color: #37B1C1;'>
+                                    <div class="blog-card__content">
+                                        <ul class="list-unstyled blog-card__meta">
+                                            <li>
+                                                <a href="/b/{{$post->link}}" target="_blank"><img src="https://ui-avatars.com/api/?name={{$post->user->first_name . '+' .$post->user->last_name}}" alt="Author: {{$post->user->first_name}} {{$post->user->last_name}}">Author: {{$post->user->first_name}} {{$post->user->last_name}}</a>
+                                            </li>
+                                        </ul><!-- /.list-unstyled blog-card__meta -->
+                                        <h3 class="blog-card__title">
+                                            <a href="/b/{{$post->link}}" target="_blank">{{$post->title}}</a>
+                                        </h3><!-- /.blog-card__title -->
+                                        <p class="blog-card__text">
+                                            {{$post->excerpt}}
+                                        </p><!-- /.blog-card__text -->
+                                        <a href="/b/{{$post->link}}" target="_blank" class="blog-card__link">
+                                            <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
+                                            <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
+                                        </a><!-- /.blog-card__link -->
+                                    </div><!-- /.blog-card__content -->
+                                    <div class="blog-card__image">
+                                        <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}">
+                                        <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}">
+                                        <a href="/b/{{$post->link}}" target="_blank" class="blog-card__image__link">
+                                            <span class="sr-only">{{$post->title}}</span>
+                                            <!-- /.sr-only --></a>
+                                    </div><!-- /.blog-card__image -->
+                                </div><!-- /.blog-card -->
+                            @endforeach
+                        @endif
                     </div><!-- /.item -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
