@@ -38,10 +38,20 @@ class WebPageController extends Controller
         $posts = Post::orderBy('views', 'asc')->limit(10)->get();
         $latest = Post::latest()->limit(6)->get();
 
+        $tags = [];
+
+        foreach($posts as $post) {
+            $postTags = explode(',', $post->tags);
+            $tags = array_merge($tags, $postTags);
+        }
+
+        $tags = array_unique($tags);
+
         return view('blog', [
             'posts' => $posts,
             'latest' => $latest,
             'categories' => $categories,
+            'tags' => $tags
         ]);
     }
 

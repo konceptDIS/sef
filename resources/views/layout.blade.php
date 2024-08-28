@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
 <body class="custom-cursor">
-    
+
 <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
 
@@ -61,7 +61,7 @@
 
                             <li class="">
                                 <a href="{{route('home')}}">Home</a>
-                                
+
                             </li>
 
                             <li>
@@ -69,15 +69,11 @@
                             </li>
                             <li class="">
                                 <a href="{{route('gallery')}}">Gallery</a>
-                                
-                            </li>
-                            <li class="">
-                                <a href="{{route('donate')}}">Donations</a>
-                               
+
                             </li>
                             <li class="">
                                 <a href="{{route('team')}}">Team</a>
-                                
+
                             </li>
                             <li class="">
                                 <a href="{{route('blog')}}">Blog</a>
@@ -93,8 +89,8 @@
                             <span></span>
                             <span></span>
                         </div><!-- /.mobile-nav__toggler -->
-                        
-                        <a href="{{route('donate')}}" class="careox-btn"><span><i class="icofont-heart"></i>Donate Now</span></a>
+
+                        <a href="https://flutterwave.com/donate/ccsux9lqnly1?_gl=1%2av762dn%2a_gcl_au%2aMTgxNDI3MTc3LjE3MjQ4NTY2MTU.%2a_ga%2aMjY5Mzc4MjQ4LjE3MjQ4NTYyNDg.%2a_ga_KQ9NSEMFCF%2aMTcyNDg1NjQyMS4xLjEuMTcyNDg1NzI0NC41My4wLjA." class="careox-btn"><span><i class="icofont-heart"></i>Donate Now</span></a>
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
@@ -151,7 +147,7 @@
                                 <li><a href="children.html">Vulnerable Children</a></li>
                                 <li><a href="empowerment.html">Empowerment</a></li>
                                 <li><a href="civic.html">Civic Engagement</a></li>
-                                
+
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-md-6 -->
@@ -220,7 +216,7 @@
 
      </div>
 
-     
+
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
@@ -280,7 +276,7 @@
         <!-- /.search-popup__content -->
     </div>
     <!-- /.search-popup -->
-   
+
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__text">back top</span>
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>

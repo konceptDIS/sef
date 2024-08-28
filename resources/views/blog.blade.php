@@ -19,118 +19,35 @@
                 <div class="row gutter-y-60">
                     <div class="col-lg-8">
                         <div class="row gutter-y-30">
-                            <div class="col-md-12">
-                                <div class="blog-card-list wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms' style='--accent-color: #37B1C1;'>
-                                    <div class="blog-card-list__image">
-                                        <img src="/assets/images/blog/blog-l-1-1.jpg" alt="The Charity for Orphans leading provider of Country Development, Start a Fundraiser for Poor Yourself.">
-                                        <img src="/assets/images/blog/blog-l-1-1.jpg" alt="The Charity for Orphans leading provider of Country Development, Start a Fundraiser for Poor Yourself.">
-                                        <a href="blog-details-right.html" class="blog-card-list__image__link"><span class="sr-only">The Charity for Orphans leading provider of Country Development, Start a Fundraiser for Poor Yourself.</span>
-                                            <!-- /.sr-only --></a>
-                                    </div><!-- /.blog-card-list__image -->
-                                    <div class="blog-card-list__content">
-                                        <ul class="list-unstyled blog-card-list__meta">
-                                            <li class="blog-card-list__meta__cats"><a href="blog-grid.html">Charity</a></li>
-                                            <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                            <li><i class="icofont-comment"></i>Comment (5)</li>
-                                            <li><i class="icofont-ui-calendar"></i>02 Sep 2024</li>
-                                        </ul><!-- /.list-unstyled blog-card-list__meta -->
-                                        <h3 class="blog-card-list__title"><a href="blog-details-right.html">The Charity for Orphans leading provider of Country Development, Start a Fundraiser for Poor Yourself.</a></h3><!-- /.blog-card-list__title -->
-                                        <p class="blog-card-list__text">
-                                            There are many variations of passages agency we have covered many special events such as
-                                            fireworks, fairs, parades, races, walks, a Lorem Ipsum Fasts injecte dedicated product design
-                                            team can help you achieve your business goals. Whether you need.
-                                        </p><!-- /.blog-card-list__text -->
-                                        <a href="blog-details-right.html" class="blog-card-list__link">
-                                            <span class="blog-card-list__link__front"><span class="icofont-double-right"></span></span>
-                                            <span class="blog-card-list__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                        </a><!-- /.blog-card-list__link -->
-                                    </div><!-- /.blog-card-list__content -->
-                                </div><!-- /.blog-card-list -->
-                            </div><!-- /.col-md-12 -->
-                            <div class="col-md-12">
-                                <div class="blog-card-list wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='50ms' style='--accent-color: #37B1C1;'>
-                                    <div class="blog-card-list__image">
-                                        <img src="/assets/images/blog/blog-l-1-2.jpg" alt="Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.">
-                                        <img src="/assets/images/blog/blog-l-1-2.jpg" alt="Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.">
-                                        <a href="blog-details-right.html" class="blog-card-list__image__link"><span class="sr-only">Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.</span>
-                                            <!-- /.sr-only --></a>
-                                    </div><!-- /.blog-card-list__image -->
-                                    <div class="blog-card-list__content">
-                                        <ul class="list-unstyled blog-card-list__meta">
-                                            <li class="blog-card-list__meta__cats"><a href="blog-grid.html">Charity</a></li>
-                                            <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                            <li><i class="icofont-comment"></i>Comment (5)</li>
-                                            <li><i class="icofont-ui-calendar"></i>02 Sep 2024</li>
-                                        </ul><!-- /.list-unstyled blog-card-list__meta -->
-                                        <h3 class="blog-card-list__title"><a href="blog-details-right.html">Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.</a></h3><!-- /.blog-card-list__title -->
-                                        <p class="blog-card-list__text">
-                                            There are many variations of passages agency we have covered many special events such as
-                                            fireworks, fairs, parades, races, walks, a Lorem Ipsum Fasts injecte dedicated product design
-                                            team can help you achieve your business goals. Whether you need.
-                                        </p><!-- /.blog-card-list__text -->
-                                        <a href="blog-details-right.html" class="blog-card-list__link">
-                                            <span class="blog-card-list__link__front"><span class="icofont-double-right"></span></span>
-                                            <span class="blog-card-list__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                        </a><!-- /.blog-card-list__link -->
-                                    </div><!-- /.blog-card-list__content -->
-                                </div><!-- /.blog-card-list -->
-                            </div><!-- /.col-md-12 -->
-                            <div class="col-md-12">
-                                <div class="blog-card-list wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms' style='--accent-color: #37B1C1;'>
-                                    <div class="blog-card-list__image">
-                                        <img src="/assets/images/blog/blog-l-1-3.jpg" alt="There are Many Variations of Passages of Available but Majority Best Place of true Splander">
-                                        <img src="/assets/images/blog/blog-l-1-3.jpg" alt="There are Many Variations of Passages of Available but Majority Best Place of true Splander">
-                                        <a href="blog-details-right.html" class="blog-card-list__image__link"><span class="sr-only">There are Many Variations of Passages of Available but Majority Best Place of true Splander</span>
-                                            <!-- /.sr-only --></a>
-                                    </div><!-- /.blog-card-list__image -->
-                                    <div class="blog-card-list__content">
-                                        <ul class="list-unstyled blog-card-list__meta">
-                                            <li class="blog-card-list__meta__cats"><a href="blog-grid.html">Charity</a></li>
-                                            <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                            <li><i class="icofont-comment"></i>Comment (5)</li>
-                                            <li><i class="icofont-ui-calendar"></i>02 Sep 2024</li>
-                                        </ul><!-- /.list-unstyled blog-card-list__meta -->
-                                        <h3 class="blog-card-list__title"><a href="blog-details-right.html">There are Many Variations of Passages of Available but Majority Best Place of true Splander</a></h3><!-- /.blog-card-list__title -->
-                                        <p class="blog-card-list__text">
-                                            There are many variations of passages agency we have covered many special events such as
-                                            fireworks, fairs, parades, races, walks, a Lorem Ipsum Fasts injecte dedicated product design
-                                            team can help you achieve your business goals. Whether you need.
-                                        </p><!-- /.blog-card-list__text -->
-                                        <a href="blog-details-right.html" class="blog-card-list__link">
-                                            <span class="blog-card-list__link__front"><span class="icofont-double-right"></span></span>
-                                            <span class="blog-card-list__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                        </a><!-- /.blog-card-list__link -->
-                                    </div><!-- /.blog-card-list__content -->
-                                </div><!-- /.blog-card-list -->
-                            </div><!-- /.col-md-12 -->
-                            <div class="col-md-12">
-                                <div class="blog-card-list wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms' style='--accent-color: #37B1C1;'>
-                                    <div class="blog-card-list__image">
-                                        <img src="/assets/images/blog/blog-l-1-4.jpg" alt="Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.">
-                                        <img src="/assets/images/blog/blog-l-1-4.jpg" alt="Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.">
-                                        <a href="blog-details-right.html" class="blog-card-list__image__link"><span class="sr-only">Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.</span>
-                                            <!-- /.sr-only --></a>
-                                    </div><!-- /.blog-card-list__image -->
-                                    <div class="blog-card-list__content">
-                                        <ul class="list-unstyled blog-card-list__meta">
-                                            <li class="blog-card-list__meta__cats"><a href="blog-grid.html">Charity</a></li>
-                                            <li><a href="blog-list-right.html"><img src="/assets/images/blog/blog-author-1-1.jpg" alt="">Admin: Lorat</a></li>
-                                            <li><i class="icofont-comment"></i>Comment (5)</li>
-                                            <li><i class="icofont-ui-calendar"></i>02 Sep 2024</li>
-                                        </ul><!-- /.list-unstyled blog-card-list__meta -->
-                                        <h3 class="blog-card-list__title"><a href="blog-details-right.html">Why to Support Poor Leading Provider of Country Development, Start a Fundraiser for Poor Yourself.</a></h3><!-- /.blog-card-list__title -->
-                                        <p class="blog-card-list__text">
-                                            There are many variations of passages agency we have covered many special events such as
-                                            fireworks, fairs, parades, races, walks, a Lorem Ipsum Fasts injecte dedicated product design
-                                            team can help you achieve your business goals. Whether you need.
-                                        </p><!-- /.blog-card-list__text -->
-                                        <a href="blog-details-right.html" class="blog-card-list__link">
-                                            <span class="blog-card-list__link__front"><span class="icofont-double-right"></span></span>
-                                            <span class="blog-card-list__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                        </a><!-- /.blog-card-list__link -->
-                                    </div><!-- /.blog-card-list__content -->
-                                </div><!-- /.blog-card-list -->
-                            </div><!-- /.col-md-12 -->
+                            @if (count($latest)>0)
+                            @foreach ($latest as $post)
+                                <div class="col-md-12">
+                                    <div class="blog-card-list wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms' style='--accent-color: #37B1C1;'>
+                                        <div class="blog-card-list__image" style="height: 350px; border-radius: 25px; object-fit: cvoer;">
+                                            <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}">
+                                            <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}">
+                                            <a href="blog-details-right.html" class="blog-card-list__image__link"><span class="sr-only">{{$post->title}}</span>
+                                                <!-- /.sr-only --></a>
+                                        </div><!-- /.blog-card-list__image -->
+                                        <div class="blog-card-list__content">
+                                            <ul class="list-unstyled blog-card-list__meta">
+                                                <li class="blog-card-list__meta__cats"><a href="/b/{{$post->link}}">{{$post->category->title}}</a></li>
+                                                <li><a href="/b/{{$post->link}}"><img src="https://ui-avatars.com/api/?name={{$post->user->first_name . '+' .$post->user->last_name}}" alt="">Author: {{$post->user->first_name}} {{$post->user->last_name}}</a></li>
+                                                {{-- <li><i class="icofont-comment"></i>Comment (5)</li> --}}
+                                                <li><i class="icofont-ui-calendar"></i>{{$post->created_at->format('j M, Y')}}</li>
+                                            </ul><!-- /.list-unstyled blog-card-list__meta -->
+                                            <h3 class="blog-card-list__title"><a href="/b/{{$post->link}}">{{$post->title}}</a></h3><!-- /.blog-card-list__title -->
+                                            <p class="blog-card-list__text">
+                                                {{$post->excerpt}}
+                                            </p><!-- /.blog-card-list__text -->
+                                            <a href="/b/{{$post->link}}" class="blog-card-list__link">
+                                                <span class="blog-card-list__link__front"><span class="icofont-double-right"></span></span>
+                                                <span class="blog-card-list__link__back"><span class="icofont-double-right"></span>Read More</span>
+                                            </a><!-- /.blog-card-list__link -->
+                                        </div><!-- /.blog-card-list__content -->
+                                    </div><!-- /.blog-card-list -->
+                                </div><!-- /.col-md-12 -->
+                            @endforeach
                             <div class="col-md-12">
                                 <ul class="post-pagination blog-page__pagination">
                                     <li>
@@ -144,6 +61,7 @@
                                     </li>
                                 </ul>
                             </div><!-- /.col-md-12 -->
+                            @endif
                         </div><!-- /.row -->
                     </div><!-- /.col-lg-8 -->
                     <div class="col-lg-4">
@@ -157,61 +75,49 @@
                                         </button>
                                     </form><!-- /.sidebar__search -->
                                 </div><!-- /.sidebar__single -->
-                                <div class="sidebar__single">
-                                    <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
-                                    <ul class="sidebar__categories list-unstyled">
-                                        <li><a href="blog-details-right.html">Donations</a>(6)</li>
-                                        <li><a href="blog-details-right.html">Charity</a>(4)</li>
-                                        <li><a href="blog-details-right.html">Food & Water</a>(7)</li>
-                                        <li><a href="blog-details-right.html">Kids education</a>(9)</li>
-                                        <li><a href="blog-details-right.html">Fundraising</a>(10)</li>
-                                    </ul><!-- /.sidebar__categories list-unstyled -->
-                                </div><!-- /.sidebar__single -->
+                                @if (count($categories)>0)
+                                    <div class="sidebar__single">
+                                        <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
+                                        <ul class="sidebar__categories list-unstyled">
+                                            @foreach ($categories as $cat)
+                                                <li>
+                                                    <a href="javascript:void(0);">{{$cat->title}}</a>({{$cat->posts->count()}})
+                                                </li>
+                                            @endforeach
+                                        </ul><!-- /.sidebar__categories list-unstyled -->
+                                    </div><!-- /.sidebar__single -->
+                                @endif
+                                @if (count($tags)>0)
                                 <div class="sidebar__single">
                                     <h4 class="sidebar__title">Tags</h4><!-- /.sidebar__title -->
                                     <div class="sidebar__tags">
-                                        <a href="blog-details-right.html">Charity</a>
-                                        <a href="blog-details-right.html">fundraising</a>
-                                        <a href="blog-details-right.html">donations</a>
-                                        <a href="blog-details-right.html">kids education</a>
-                                        <a href="blog-details-right.html">save water</a>
-                                        <a href="blog-details-right.html">kids</a>
-                                        <a href="blog-details-right.html">animal save</a>
-                                        <a href="blog-details-right.html">NGO charity</a>
+                                        @foreach ($tags as $tag)
+                                        <a href="javascript:void(0);">{{ trim($tag) }}</a>
+                                        @endforeach
                                     </div><!-- /.sidebar__tags -->
                                 </div><!-- /.sidebar__single -->
+                                @endif
+                                @if (count($latest)>0)
                                 <div class="sidebar__single">
-                                    <h4 class="sidebar__title">Recent Post</h4><!-- /.sidebar__title -->
+                                    <h4 class="sidebar__title">Recent Posts</h4><!-- /.sidebar__title -->
                                     <ul class="sidebar__posts list-unstyled">
+                                        @foreach ($latest as $post)
                                         <li class="sidebar__posts__item">
                                             <div class="sidebar__posts__image">
-                                                <img src="/assets/images/blog/lp-1-1.jpg" alt="">
+                                                <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="" style="height: 100px; width:100px; border-radius: 10px; object-fit:cover">
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>Aug 10, 2023</p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">We play chimney pot Chip bonne.</a></h4><!-- /.sidebar__posts__title -->
+                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>  {{$post->created_at->format('j M, Y')}}
+                                                </p><!-- /.sidebar__posts__date -->
+                                                <h4 class="sidebar__posts__title">
+                                                    <a href="/b/{{$post->link}}">{{$post->title}}</a>
+                                                </h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
-                                        <li class="sidebar__posts__item">
-                                            <div class="sidebar__posts__image">
-                                                <img src="/assets/images/blog/lp-1-2.jpg" alt="">
-                                            </div><!-- /.sidebar__posts__image -->
-                                            <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>Aug 10, 2023</p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">Get deep knowledge your beauty</a></h4><!-- /.sidebar__posts__title -->
-                                            </div><!-- /.sidebar__posts__content -->
-                                        </li>
-                                        <li class="sidebar__posts__item">
-                                            <div class="sidebar__posts__image">
-                                                <img src="/assets/images/blog/lp-1-3.jpg" alt="">
-                                            </div><!-- /.sidebar__posts__image -->
-                                            <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><i class="icofont-calendar"></i>Aug 10, 2023</p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">We round solution of york blog</a></h4><!-- /.sidebar__posts__title -->
-                                            </div><!-- /.sidebar__posts__content -->
-                                        </li>
+                                        @endforeach
                                     </ul><!-- /.sidebar__posts list-unstyled -->
                                 </div>
+                                @endif
                             </aside><!-- /.widget-area -->
                         </div><!-- /.sidebar -->
                     </div><!-- /.col-lg-4 -->
