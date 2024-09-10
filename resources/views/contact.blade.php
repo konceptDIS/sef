@@ -31,7 +31,8 @@
                         </div>
                     </div><!-- /.col-xl-5 -->
                     <div class="col-xl-7">
-                        <form class="contact-one__form contact-form-validated form-one wow fadeInUp" data-wow-duration="1500ms" action="https://bracketweb.com/careox-html/inc/sendemail.php">
+                        <form class="contact-one__form contact-form-validated form-one wow fadeInUp" data-wow-duration="1500ms" action="{{ route('contact') }}" method="POST">
+                        @csrf
                             <div class="sec-title text-left">
 
                                 <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__border"></span>Contact Us </h6><!-- /.sec-title__tagline -->
@@ -43,28 +44,19 @@
                             </p>
                             <div class="form-one__group">
                                 <div class="form-one__control">
-                                    <input type="text" name="name" placeholder="Your Name">
+                                    <input type="text" id="name" name="name" placeholder="First Name">
                                 </div><!-- /.form-one__control -->
                                 <div class="form-one__control">
-                                    <input type="email" name="email" placeholder="Email Address">
+                                    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
                                 </div><!-- /.form-one__control -->
                                 <div class="form-one__control">
-                                    <input type="tel" name="phone" placeholder="Phone No">
+                                    <input type="tel" id="phone" name="phone" placeholder="Phone No">
                                 </div><!-- /.form-one__control -->
                                 <div class="form-one__control">
-                                    <div class="form-one__control__select">
-                                        <select class="selectpicker" aria-label="Default select example">
-                                            <option selected="">Subject</option>
-                                            <option value="1">Volunteer</option>
-                                            <option value="2">Donations</option>
-                                            <option value="3">Foods Support</option>
-                                            <option value="4">Education Support</option>
-                                            <option value="4">Medical Support</option>
-                                        </select>
-                                    </div><!-- /.main-menu__language -->
+                                <input type="email" id="email" name="email" placeholder="Email Address">
                                 </div><!-- /.form-one__control -->
                                 <div class="form-one__control form-one__control--full">
-                                    <textarea name="message" placeholder="Write  a Message"></textarea><!-- /# -->
+                                    <textarea id="message" name="message" placeholder="Write  a Message"></textarea><!-- /# -->
                                 </div><!-- /.form-one__control -->
                                 <div class="form-one__control form-one__control--full">
                                     <button type="submit" class="careox-btn"><span>Send Request</span></button>

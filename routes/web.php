@@ -72,6 +72,8 @@ Route::controller(WebPageController::class)->group(function () {
     Route::get('/contact', 'contact')->name('contact');
 });
 
+Route::post('/contact', [ContactController::class, 'contact'])->name('contact');
+
 Route::middleware('guest')->group(function () {
     //Login Routes
     Route::controller(LoginController::class)->group(function () {
@@ -131,4 +133,4 @@ Route::group(['middleware' => 'auth'], function () {
 
 // Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

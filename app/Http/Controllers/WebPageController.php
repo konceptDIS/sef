@@ -10,7 +10,9 @@ class WebPageController extends Controller
 {
     public function home() {
         $latestPost = Post::latest()->first();
-        $otherPosts = Post::where('id', '!=', $latestPost->id)->latest()->get();
+        $otherPosts = [];
+        if($latestPost){
+            $otherPosts = Post::where('id', '!=', $latestPost->id)->latest()->get(); }
 
         return view('home', compact('latestPost', 'otherPosts'));
     }

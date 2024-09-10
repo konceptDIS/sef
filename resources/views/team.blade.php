@@ -82,7 +82,7 @@
                                 <h3 class="team-card-two__title">
                                     <a href="team-details.html">Chiamaka Nwakwo</a>
                                 </h3><!-- /.team-card-two__title -->
-                                <p class="team-card-two__designation">Admin/Community Officer</p><!-- /.team-card-two__designation -->
+                                <p class="team-card-two__designation">Admin/Communication Officer</p><!-- /.team-card-two__designation -->
                                
                             </div><!-- /.team-card-two__content -->
                             <div class="team-card-two__image">

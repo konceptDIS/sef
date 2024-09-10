@@ -24,13 +24,13 @@
                             </div>
                             <h3 class="event-details__title">Empowerment</h3>
                             <p class="event-details__text">
-                                We provide intervention programs that would enhance the skills and economic
+                                We provide intervention programs that enhances skills and economic
                                 standing of beneficiaries, thereby bridging the economic disparity women and
                                 youths face. This reduces hunger and poverty and also inspires them to be
                                 employers of labor.
                                 Our Entrepreneurial Advancement Support Program seeks to support youths,
                                 women, and vulnerable groups with the required fund and capacity building
-                                that enhances their livelihood, placing them in a position to make a meaningful
+                                that enhances their livelihood, placing them in a position to make a decisive and meaningful
                                 contribution to themselves and society. 
                             </p>
                             <p class="event-details__text">

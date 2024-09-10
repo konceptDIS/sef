@@ -54,7 +54,7 @@
                             <div class="main-slider-two__content">
                                 <h2 class="main-slider-two__title">
                                     <span class="main-slider-two__title__text">Addressing <span>Health </span>Through </span><br>
-                                    <span class="main-slider-two__title__text">Targeted Sensitization</span><br>
+                                    <span class="main-slider-two__title__text">Targeted</span><br>
                                     <span class="main-slider-two__title__text">Programs</span>
                                 </h2><!-- slider-title -->
                                 <p class="main-slider-two__text">
@@ -150,7 +150,7 @@
                         </div><!-- /.about__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
-                <div class="about-one__text wow fadeInUp"><span>#</span> We support economic empowerment through strategic initiatives <a href="donation.html" class="careox-btn"><span>Donate Now</span></a></div>
+                <div class="about-one__text wow fadeInUp"><span>#</span> We support economic empowerment through strategic initiatives <a href="https://flutterwave.com/donate/ccsux9lqnly1?_gl=1%2av762dn%2a_gcl_au%2aMTgxNDI3MTc3LjE3MjQ4NTY2MTU.%2a_ga%2aMjY5Mzc4MjQ4LjE3MjQ4NTYyNDg.%2a_ga_KQ9NSEMFCF%2aMTcyNDg1NjQyMS4xLjEuMTcyNDg1NzI0NC41My4wLjA." class="careox-btn"><span>Donate Now</span></a></div>
             </div><!-- /.container -->
         </section><!-- /.about-one -->
 
@@ -178,10 +178,12 @@
                             <p class="service-two__item__text">
                                 We design and implement strategic interventions that reduce infant mortality rates & child diseases such as pneumonia,..
                             </p><!-- /.service-title -->
+                            
                             <div class="service-two__item__rm">
-                                <a href="{{route('health')}}">Read More</a>
+                                <a class="pull" href="{{route('health')}}">Read More</a>
                                 <i class="icon-right-arrow"></i>
                             </div>
+                            
                         </div><!-- /.service-card-one -->
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
@@ -198,7 +200,7 @@
                                 We ensure the survival and enhance the quality of life of identified orphaned & vulnerable children by..
                             </p><!-- /.service-title -->
                             <div class="service-two__item__rm">
-                                <a href="{{route('children')}}">Read More</a>
+                                <a class="pull" href="{{route('children')}}">Read More</a>
                                 <i class="icon-right-arrow"></i>
                             </div>
                         </div><!-- /.service-card-one -->
@@ -217,7 +219,7 @@
                                 We provide intervention programs that would enhance the skills and economic standing of beneficiaries,..
                             </p><!-- /.service-title -->
                             <div class="service-two__item__rm">
-                                <a href="{{route('empowerment')}}">Read More</a>
+                                <a class="pull" href="{{route('empowerment')}}">Read More</a>
                                 <i class="icon-right-arrow"></i>
                             </div>
                         </div><!-- /.service-card-one -->
@@ -236,7 +238,7 @@
                                 This focus is geared towards promoting Social Behavioral & Communication Change,..
                             </p><!-- /.service-title -->
                             <div class="service-two__item__rm">
-                                <a href="{{route('civic')}}">Read More</a>
+                                <a class="pull" href="{{route('civic')}}">Read More</a>
                                 <i class="icon-right-arrow"></i>
                             </div>
                         </div><!-- /.service-card-one -->
@@ -252,9 +254,9 @@
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__border"></span>Our Event</h6><!-- /.sec-title__tagline -->
+                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__border"></span>Event</h6><!-- /.sec-title__tagline -->
 
-                    <h3 class="sec-title__title bw-split-in-left">Our Upcoming Event</h3><!-- /.sec-title__title -->
+                    <h3 class="sec-title__title bw-split-in-left">Our Events</h3><!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row gutter-y-30 masonry-layout">
                     <div class="col-xl-4 col-md-6">
@@ -417,19 +419,9 @@
                                 <h3 class="sec-title__title bw-split-in-left">Become a Partner Now</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <form action="#" class="donate-three__form">
-                                <div class="donate-three__form__amount">
-                                    <span class="donate-three__form__amount__sign">$</span>
-                                    <input type="text" value="200" name="donate_amount" id="donate_amount" placeholder="Amount" class="donate-three__form__amount__input">
-                                </div><!-- /.donate-three__form__amount__box -->
-                                <div class="donate-three__form__buttons">
-                                    <button type="button" class="donate-three__form__buttons__item">$<span class="donate-three__form__buttons__amount">100</span></button>
-                                    <button type="button" class="donate-three__form__buttons__item active">$<span class="donate-three__form__buttons__amount">200</span></button>
-                                    <button type="button" class="donate-three__form__buttons__item">$<span class="donate-three__form__buttons__amount">500</span></button>
-                                    <button type="button" class="donate-three__form__buttons__item">$<span class="donate-three__form__buttons__amount">300</span></button>
-                                    <button type="button" class="donate-three__form__buttons__item">Custom</button>
-                                </div><!-- /.donate-three__form__amount__buttons -->
-                                <div class="donate-three__form__submit">
-                                    <button type="submit" class="careox-btn"><span>Donate Now</span></button>
+                                
+                                <div class="donate-three__form__submit" style="margin-top: 20px;">
+                                    <a href="https://flutterwave.com/donate/ccsux9lqnly1?_gl=1%2av762dn%2a_gcl_au%2aMTgxNDI3MTc3LjE3MjQ4NTY2MTU.%2a_ga%2aMjY5Mzc4MjQ4LjE3MjQ4NTYyNDg.%2a_ga_KQ9NSEMFCF%2aMTcyNDg1NjQyMS4xLjEuMTcyNDg1NzI0NC41My4wLjA."><button type="submit" class="careox-btn"><span>Donate</span></button></a>
 
                                 </div>
                             </form>
