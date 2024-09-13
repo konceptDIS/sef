@@ -24,9 +24,9 @@
                             </div>
                             <h3 class="event-details__title">HEALTH</h3>
                             <p class="event-details__text">
-                                We design and implement strategic interventions that reduce infant
-                                mortality rates and child diseases such as pneumonia, diarrhea,
-                                malnutrition, etc., conduct community immunization, prevent the spread
+                                We design and implement strategic interventions geared towards reducing infant
+                                mortality rates, malnutrition and child diseases such as pneumonia, diarrhea,
+                                malnutrition; create awareness on exclusive breastfeeding and conduct community immunization, prevent the spread
                                 of HIV/AIDS, improve maternal health care, and sensitize the rural
                                 communities on best practices that would ameliorate the spread of
                                 endemic and non-communicable diseases. To realize these, we have

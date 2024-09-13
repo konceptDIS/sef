@@ -60,7 +60,7 @@
                         <ul class="main-menu__list">
 
                             <li class="">
-                                <a href="{{route('home')}}">Home</a>
+                                <a href="{{route('index')}}">Home</a>
 
                             </li>
 
@@ -143,10 +143,10 @@
                         <div class="footer-widget footer-widget--links">
                             <h2 class="footer-widget__title">Thematic Focus</h2><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="health.html">Health</a></li>
-                                <li><a href="children.html">Vulnerable Children</a></li>
-                                <li><a href="empowerment.html">Empowerment</a></li>
-                                <li><a href="civic.html">Civic Engagement</a></li>
+                                <li><a href="{{route('health')}}">Health</a></li>
+                                <li><a href="{{route('children')}}">Vulnerable Children</a></li>
+                                <li><a href="{{route('empowerment')}}">Empowerment</a></li>
+                                <li><a href="{{route('civic')}}">Civic Engagement</a></li>
 
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
@@ -155,11 +155,11 @@
                         <div class="footer-widget footer-widget--links-two">
                             <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="blog-list-right.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{route('about')}}">About Us</a></li>
+                                <li><a href="{{route('gallery')}}">Gallery</a></li>
+                                <li><a href="{{route('team')}}">Team</a></li>
+                                <li><a href="{{route('blog')}}">Blog</a></li>
+                                <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul><!-- /.list-unstyled footer-widget__links -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-md-6 -->
@@ -181,19 +181,19 @@
                                 </li>
                             </ul><!-- /.list-unstyled -->
                             <div class="footer-widget__social">
-                                <a href="https://facebook.com/" style="--accent-color: #37B1C1;">
+                                <a href="https://www.facebook.com/SamEmpowermentFoundation?mibextid=ZbWKwL" style="--accent-color: #37B1C1;">
                                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                     <span class="sr-only">Facebook</span>
                                 </a>
-                                <a href="https://twitter.com/" style="--accent-color: #37B1C1;">
+                                <!-- <a href="https://twitter.com/" style="--accent-color: #37B1C1;">
                                     <i class="fab fa-twitter" aria-hidden="true"></i>
                                     <span class="sr-only">Twitter</span>
-                                </a>
-                                <a href="https://pinterest.com/" style="--accent-color: #37B1C1;">
+                                </a> -->
+                                <!-- <a href="https://pinterest.com/" style="--accent-color: #37B1C1;">
                                     <i class="fab fa-pinterest-p" aria-hidden="true"></i>
                                     <span class="sr-only">Pinterest</span>
-                                </a>
-                                <a href="https://instagram.com/" style="--accent-color: #37B1C1;">
+                                </a> -->
+                                <a href="https://www.instagram.com/samempowermentfoundation?igsh=MWtyZGQxdjl6ODUyYw==" style="--accent-color: #37B1C1;">
                                     <i class="fab fa-instagram" aria-hidden="true"></i>
                                     <span class="sr-only">Instagram</span>
                                 </a>
@@ -241,19 +241,19 @@
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">
-                <a href="https://facebook.com/" style="--accent-color: #37B1C1;">
+                <a href="https://www.facebook.com/SamEmpowermentFoundation?mibextid=ZbWKwL" style="--accent-color: #37B1C1;">
                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
                     <span class="sr-only">Facebook</span>
                 </a>
-                <a href="https://twitter.com/" style="--accent-color: #37B1C1;">
+                <!-- <a href="https://twitter.com/" style="--accent-color: #37B1C1;">
                     <i class="fab fa-twitter" aria-hidden="true"></i>
                     <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://pinterest.com/" style="--accent-color: #37B1C1;">
+                </a> -->
+                <!-- <a href="https://pinterest.com/" style="--accent-color: #37B1C1;">
                     <i class="fab fa-pinterest-p" aria-hidden="true"></i>
                     <span class="sr-only">Pinterest</span>
-                </a>
-                <a href="https://instagram.com/" style="--accent-color: #37B1C1;">
+                </a> -->
+                <a href="https://www.instagram.com/samempowermentfoundation?igsh=MWtyZGQxdjl6ODUyYw==" style="--accent-color: #37B1C1;">
                     <i class="fab fa-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                 </a>
