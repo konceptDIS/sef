@@ -20,6 +20,73 @@
                 <div class="row masonry-layout">
                     <div class="col-md-6 col-lg-3">
                         <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-21.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-22.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-23.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-24.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-25.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-26.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-27.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-28.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-6">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-29.jpg" alt="">
+                           
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
+                            <img src="/assets/images/gallery/gallery-1-30.jpg" alt="">
+                            
+                        </div><!-- /.gallery-one__card -->
+                    </div><!-- /.col-md-6 col-lg-4 -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </section><!-- /.gallery-one -->
+       
+        <section class="gallery-one">
+            <div class="container-fluid">
+                <div class="row masonry-layout">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="gallery-one__card">
                             <img src="/assets/images/gallery/gallery-1-1.jpg" alt="">
                             
                         </div><!-- /.gallery-one__card -->

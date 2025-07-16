@@ -262,11 +262,11 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="event-one__item">
                             <img src="/assets/images/events/event-1-1.jpg" alt="">
-                            <a href="#" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
+                            <a href="{{route('ramadan-food-bank')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
-                                <h3 class="event-one__item__title"><a href="{{route('charity_ball')}}">SEF Charity Ball</a></h3>
+                                <h3 class="event-one__item__title"><a href="{{route('ramadan-food-bank')}}">Ramadan Food Bank – A Month of Compassion and Community</a></h3>
                                 <ul class="event-one__item__meta">
-                                    <li><i class="icofont-ui-calendar"></i> Feb 2024</li>
+                                    <li><i class="icofont-ui-calendar"></i>01 - 30 March 2025</li>
                                     <li><i class="icofont-location-pin"></i>FCT, Abuja</li>
                                 </ul>
                             </div>
@@ -275,12 +275,12 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="event-one__item">
                             <img src="/assets/images/events/event-1-2.jpg" alt="">
-                            <a href="#" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
+                            <a href="{{route('idd')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
-                                <h3 class="event-one__item__title"><a href="{{route('sallah_party')}}">SEF Sallah Party</a></h3>
+                                <h3 class="event-one__item__title"><a href="{{route('idd')}}"> International Day of Discrimination </a></h3>
                                 <ul class="event-one__item__meta">
-                                    <li><i class="icofont-ui-calendar"></i>April 2024</li>
-                                    <li><i class="icofont-location-pin"></i>FCT, Orozo</li>
+                                    <li><i class="icofont-ui-calendar"></i>01 Mar 2025</li>
+                                    <li><i class="icofont-location-pin"></i>FCT, Abuja</li>
                                 </ul>
                             </div>
                         </div>
@@ -288,12 +288,12 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="event-one__item">
                             <img src="/assets/images/events/event-1-3.jpg" alt="">
-                            <a href="#" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
+                            <a href="{{route('lea-scholarship')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
-                                <h3 class="event-one__item__title"><a href="#"></a>Ushafa Medical Outreach</h3>
+                                <h3 class="event-one__item__title"><a href="{{route('lea-scholarship')}}"> Education Empowered – Scholarship Support for 416 Pupils </a></h3>
                                 <ul class="event-one__item__meta">
-                                    <li><i class="icofont-ui-calendar"></i>Nov 2023</li>
-                                    <li><i class="icofont-location-pin"></i>FCT, Ushafa</li>
+                                    <li><i class="icofont-ui-calendar"></i>10 Feb 2025</li>
+                                    <li><i class="icofont-location-pin"></i>Jahi, Abuja</li>
                                 </ul>
                             </div>
                         </div>
@@ -301,12 +301,12 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="event-one__item">
                             <img src="/assets/images/events/event-1-5.jpg" alt="">
-                            <a href="#" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
+                            <a href="{{route('paul-onoja')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
-                                <h3 class="event-one__item__title"><a href="#">Stakeholders Workshop</a></h3>
+                                <h3 class="event-one__item__title"><a href="{{route('paul-onoja')}}"> A Gift of Purpose – Celebrating 51 Years with Impact</a></h3>
                                 <ul class="event-one__item__meta">
-                                    <li><i class="icofont-ui-calendar"></i>Aug 2023</li>
-                                    <li><i class="icofont-location-pin"></i>Nasarawa, Lafia</li>
+                                    <li><i class="icofont-ui-calendar"></i>29 Jan 2025</li>
+                                    <li><i class="icofont-location-pin"></i>Fct, Abuja</li>
                                 </ul>
                             </div>
                         </div>
@@ -314,12 +314,12 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="event-one__item">
                             <img src="/assets/images/events/event-1-4.jpg" alt="">
-                            <a href="#" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
+                            <a href="{{route('mik')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
-                                <h3 class="event-one__item__title"><a href="#"></a>Psychosocial Intervention</h3>
+                                <h3 class="event-one__item__title"><a href="{{route('mik')}}"> Medical Intervention – Kiwoyi Community </a></h3>
                                 <ul class="event-one__item__meta">
-                                    <li><i class="icofont-ui-calendar"></i>May 2023</li>
-                                    <li><i class="icofont-location-pin"></i>New Kuchiguro, IDP Camp</li>
+                                    <li><i class="icofont-ui-calendar"></i>28 Feb 2025</li>
+                                    <li><i class="icofont-location-pin"></i>Kiwoyi, Abuja</li>
                                 </ul>
                             </div>
                         </div>
@@ -327,17 +327,17 @@
                     <div class="col-xl-4 col-md-6">
                         <div class="event-one__item">
                             <img src="/assets/images/events/event-1-6.jpg" alt="">
-                            <a href="event-details.html" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
+                            <a href="{{route('idp-pupils')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
-                                <h3 class="event-one__item__title"><a href="#"></a>Sensitization Workshop on
-                                    Menstrual Hygiene</h3>
+                                <h3 class="event-one__item__title"><a href="{{route('idp-pupils')}}"> Back to School – A Message of Hope for IDP Pupils</a></h3>
                                 <ul class="event-one__item__meta">
-                                    <li><i class="icofont-ui-calendar"> </i>Oct 2022</li>
-                                    <li><i class="icofont-location-pin"></i>FCT, Gbuape & Orozo</li>
+                                    <li><i class="icofont-ui-calendar"></i>15 Jan 2025</li>
+                                    <li><i class="icofont-location-pin"></i>Fct, Abuja</li>
                                 </ul>
                             </div>
                         </div>
                     </div><!--item-->
+                    <div class="about-one__text wow fadeInUp"> <a href="{{route('events')}}" class="careox-btn"><span>More Events</span></a></div>
                 </div>
             </div>
         </section>

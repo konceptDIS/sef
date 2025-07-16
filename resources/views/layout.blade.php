@@ -67,6 +67,9 @@
                             <li>
                                 <a href="{{route('about')}}">About</a>
                             </li>
+                            <li>
+                                <a href="{{route('events')}}">Events</a>
+                            </li>
                             <li class="">
                                 <a href="{{route('gallery')}}">Gallery</a>
 
@@ -135,7 +138,7 @@
                             </p>
                             <div class="footer-widget__box">
                                 <div class="footer-widget__box__icon"><i class="icon-phone-call"></i></div>
-                                <p class="footer-widget__box__text">Hotline 24/7 <a href="tel:+234 (0) 814 802 8900">+234 (0) 814 802 8900</a></p>
+                                <p class="footer-widget__box__text">Hotline 24/7 <a href="tel:+234 (0) 814 802 8900">+234 (0) 814 802 8900, +234 904 939 9262</a></p>
                             </div>
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-md-6 -->

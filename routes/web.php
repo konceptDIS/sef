@@ -47,6 +47,47 @@ Route::get('/civic', function () {
     return view('civic');
 }) ->name('civic');
 
+Route::get('/events', function () {
+    return view('events');
+}) ->name('events');
+
+Route::get('/ramadan-food-bank', function () {
+    return view('ramadan-food-bank');
+}) ->name('ramadan-food-bank');
+
+Route::get('/idd', function () {
+    return view('idd');
+}) ->name('idd');
+
+Route::get('/mik', function () {
+    return view('mik');
+}) ->name('mik');
+
+Route::get('/lea-scholarship', function () {
+    return view('lea-scholarship');
+}) ->name('lea-scholarship');
+
+Route::get('/paul-onoja', function () {
+    return view('paul-onoja');
+}) ->name('paul-onoja');
+
+Route::get('/idp-pupils', function () {
+    return view('idp-pupils');
+}) ->name('idp-pupils');
+
+Route::get('/gauraka-fb', function () {
+    return view('gauraka-fb');
+}) ->name('gauraka-fb');
+
+Route::get('/cd-workshop', function () {
+    return view('cd-workshop');
+}) ->name('cd-workshop');
+
+Route::get('/maraba-fb', function () {
+    return view('maraba-fb');
+}) ->name('maraba-fb');
+
+
 Route::get('/charity_ball', function () {
     return view('charity_ball');
 }) ->name('charity_ball');

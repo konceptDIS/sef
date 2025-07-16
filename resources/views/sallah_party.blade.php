@@ -121,6 +121,6 @@
                     </div>
                 </div>
             </div><!-- /.container -->
-        </section><!-- /.cta-two -->
+</section><!-- /.cta-two -->
 </div>
 @endsection

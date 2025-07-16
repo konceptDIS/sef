@@ -18330,6 +18330,21 @@ body.boxed-wrapper .main-slider-one__shape-two {
   width: 100%;
 }
 
+
+.event-two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.event-two__item {
+  flex: 0 0 calc(33.333% - 20px); /* 3 per row with gap taken into account */
+  box-sizing: border-box;
+}
+
+
+
 /*--------------------------------------------------------------
 # Countries
 --------------------------------------------------------------*/
