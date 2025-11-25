@@ -285,4 +285,16 @@ class PostController extends Controller
 
         return view('events', compact('categories', 'events', 'categories', 'latest', 'pages', 'details'));
     }
+
+    public function destroy($id)
+{
+    $post = Post::find($id);
+
+    if ($post) {
+        $post->delete();
+        return back()->with('success', 'Post deleted successfully.');
+    }
+
+    return back()->with('error', 'Post not found.');
+}
 }

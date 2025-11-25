@@ -137,15 +137,18 @@ Route::group(['middleware' => 'auth'], function () {
     Route::controller(CategoryController::class)->group(function () {
         Route::post('/admin/addCategory', 'addCategory')->name('admin.addCategory');
         Route::get('/admin/categories', 'categories')->name('admin.categories');
-        Route::get('/admin/delete-category/{id}', 'destroy')->name('admin.deleteCategory');
+        // Route::get('/admin/delete-category/{id}', 'destroy')->name('admin.deleteCategory');
         Route::get('/admin/get-category/{id}', 'getCategory');
         Route::post('/admin/update-category', 'update')->name('admin.updateCategory');
+        Route::delete('/admin/delete-category/{id}', 'destroy')->name('admin.deleteCategory');
+
     });
     Route::controller(PostController::class)->group(function () {
         Route::get('/admin/posts', 'index')->name('admin.posts');
         Route::get('/admin/editPost/{post_id}', 'edit')->name('admin.editPost');
         Route::post('/admin/editPost/{post_id}', 'update');
         Route::post('/admin/savePost', 'store')->name('admin.savePost');
+        Route::delete('/admin/deletePost/{id}', 'destroy')->name('admin.deletePost');
     });
     Route::controller(SettingController::class)->group(function () {
         Route::get('/admin/settings', 'index')->name('admin.settings');
@@ -160,8 +163,9 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::controller(ImageController::class)->group(function () {
         Route::get('/admin/images', 'index')->name('admin.images');
-        Route::get('/admin/delete-image/{file}', 'destroy');
+        // Route::get('/admin/delete-image/{file}', 'destroy');
         Route::post('/admin/uploadImage', 'store')->name('admin.uploadImage');
+        Route::delete('/admin/images/{id}', 'destroy')->name('admin.images.delete');
     });
 
     Route::controller(SliderController::class)->group(function () {

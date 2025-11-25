@@ -1,6 +1,13 @@
 @extends('admin.layouts.app')
 
 @section('content')
+@if(session('success'))
+    <div class="alert alert-success">{{ session('success') }}</div>
+@endif
+@if(session('error'))
+    <div class="alert alert-danger">{{ session('error') }}</div>
+@endif
+
 
 <main class="page-content">
     <!-- Start Breadcrumbbar -->
@@ -44,7 +51,15 @@
 
                                             <div class="row p-2 text-center">
                                                 <div class="col-md-4 m-auto text-center">
-                                                    <button onclick="deleteImage('{{$val->link}}')" class="btn ps-1 btn-sm btn-danger"><i class="bi bi-trash3-fill"></i></button>
+                                                <form action="{{ route('admin.images.delete',  $val->id) }}" method="POST" style="display:inline-block;" onsubmit="return confirm('Are you sure you want to delete this image?');">
+    @csrf
+    @method('DELETE')
+    <button type="submit" class="btn btn-danger btn-sm">
+        <i class="bi bi-trash3-fill"></i>
+    </button>
+</form>
+
+
                                                 </div>
                                             </div>
                                         </div>

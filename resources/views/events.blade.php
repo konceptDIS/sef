@@ -66,7 +66,7 @@
                 <div class="event-two" style="margin-bottom:30px">
                     <div class="item">
                         <div class="event-one__item">
-                            <img src="assets/images/events/event-1-16.jpg" alt="sef">
+                            <img src="assets/images/events/event-1-17.jpg" alt="sef">
                             <a href="{{route('paul-onoja')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
                                 <h3 class="event-one__item__title"><a href="{{route('paul-onoja')}}">A Gift of Purpose – Celebrating 51 Years with Impact</a></h3>
@@ -79,7 +79,7 @@
                     </div><!--item-->
                     <div class="item">
                         <div class="event-one__item">
-                            <img src="assets/images/events/event-1-17.jpg" alt="sef">
+                            <img src="assets/images/events/event-1-16.jpg" alt="sef">
                             <a href="{{route('mik')}}" class="event-one__item__rm"><i class="icon-right-arrow"></i></a>
                             <div class="event-one__item__content">
                                 <h3 class="event-one__item__title"><a href="{{route('mik')}}">Medical Intervention – Kiwoyi Community  </a></h3>

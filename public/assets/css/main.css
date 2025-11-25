@@ -2174,9 +2174,9 @@ h6 {
   mix-blend-mode: luminosity;
 }
 .blog-card__image img:nth-child(1) {
-  transform: translatex(50%) scalex(2);
-  opacity: 0;
-  filter: blur(10px);
+  /* transform: translatex(50%) scalex(2); */
+  /* opacity: 0; */
+  /* filter: blur(10px); */
 }
 .blog-card__image img:nth-child(2) {
   position: absolute;

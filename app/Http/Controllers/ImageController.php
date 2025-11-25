@@ -125,21 +125,25 @@ class ImageController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Request $request)
+    public function destroy($id)
     {
-        $file = $request->file;
-
-        $loc = Image::where('link',$file)->first();
-        $deleted = $loc->delete();
-        if($deleted){
-            unlink('../storage/app/public/images/'.$file);
-            $response['status'] = "success";
-            $response['message'] = "Image deleted successfully!";
-            echo json_encode($response);
-        }else{
-            $response['status'] = "failed";
-            $response['message'] = "Image was not deleted!";
-            echo json_encode($response);
+        $image = Image::find($id);
+    
+        if (!$image) {
+            return redirect()->back()->with('error', 'Image not found.');
         }
+    
+        // Adjust the path below to match your actual upload directory
+        $filePath = public_path('../storage/app/public/images/' . $image->link);
+    
+        if (file_exists($filePath)) {
+            unlink($filePath);
+        }
+    
+        $image->delete();
+    
+        return redirect()->back()->with('success', 'Image deleted successfully.');
     }
+    
+
 }

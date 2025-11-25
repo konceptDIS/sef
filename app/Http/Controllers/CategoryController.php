@@ -63,18 +63,23 @@ class CategoryController extends Controller
         return response()->json(['status'=>'success', 'data'=>$data]);
     }
 
-    public function destroy(Request $request)
+    public function destroy($id)
     {
-        $id = $request->id;
         $category = Category::find($id);
-        if(!$category){
-            return back()->with('error', 'Category not found!');
+    
+        if (!$category) {
+            return redirect()->route('admin.categories')->with('error', 'Category not found.');
         }
-        if ($category->delete()) {
-            return back()->with('success', 'Category deleted');
+    
+        if ($category->posts()->count() > 0) {
+            return redirect()->route('admin.categories')->with('error', 'Cannot delete category with existing posts.');
         }
-
-        return back()->with('error', 'The server is unable to handle your request at the moment!');
+    
+        $category->delete();
+    
+        return redirect()->route('admin.categories')->with('success', 'Category deleted successfully.');
     }
+    
+
 
 }

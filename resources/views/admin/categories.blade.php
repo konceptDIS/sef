@@ -57,9 +57,13 @@
                                                     <button type="button" class="btn ps-1 btn-primary" onclick="editCategory({{$cat->id}})">
                                                         <i class="bi bi-pen-fill"></i>
                                                     </button>
-                                                    <button type="button" class="btn ps-1 btn-danger"  onclick="deleteCategory({{$cat->id}})">
-                                                        <i class="bi bi-trash3-fill"></i>
-                                                    </button>
+                                                    <form action="{{ route('admin.deleteCategory', $cat->id) }}" method="POST" style="display:inline-block;" onsubmit="return confirm('Are you sure you want to delete this category?');">
+    @csrf
+    @method('DELETE')
+    <button type="submit" class="btn btn-danger btn-sm">
+        <i class="bi bi-trash3-fill"></i>
+    </button>
+</form>
                                                 </div>
                                             </td>
                                         </tr>

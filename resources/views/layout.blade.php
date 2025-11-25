@@ -236,7 +236,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:help@samempoweremntfoundation.org">help@samempoweremntfoundation.org</a>
+                    <a href="mailto:help@samempoweremntfoundation.org">help@samempowermentfoundation.org</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>

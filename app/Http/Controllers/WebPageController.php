@@ -8,14 +8,12 @@ use Illuminate\Http\Request;
 
 class WebPageController extends Controller
 {
-    public function home() {
-        $latestPost = Post::latest()->first();
-        $otherPosts = [];
-        if($latestPost){
-            $otherPosts = Post::where('id', '!=', $latestPost->id)->latest()->get(); }
+   public function home() {
+    $latestPost = Post::latest()->take(1)->first();
+    $otherPosts = Post::latest()->skip(1)->take(2)->get();
 
-        return view('home', compact('latestPost', 'otherPosts'));
-    }
+    return view('home', compact('latestPost', 'otherPosts'));
+}
 
 
     public function about(){

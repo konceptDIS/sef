@@ -80,9 +80,9 @@
                         <div class="container">
                             <div class="main-slider-two__content">
                                 <h2 class="main-slider-two__title">
-                                    <span class="main-slider-two__title__text">Empowering <span>Women</span> with Culturally</span><br>
-                                    <span class="main-slider-two__title__text">Sensitive skills &</span><br>
-                                    <span class="main-slider-two__title__text">Income Opportunities</span>
+                                    <span class="main-slider-two__title__text">Empowering <span>Women</span> and Youth with life</span><br>
+                                    <span class="main-slider-two__title__text"> skills & Income</span><br>
+                                    <span class="main-slider-two__title__text"> Generating Opportunities</span>
                                 </h2><!-- slider-title -->
                                 <p class="main-slider-two__text">
                                 We are building independence and resilience through tailored skills and income-generating opportunities for women.
@@ -431,83 +431,107 @@
             </div>
         </section>
         <section class="blog-one">
-            <div class="container">
-                <div class="sec-title text-center">
+    <div class="container">
+        <div class="sec-title text-center">
+            <h6 class="sec-title__tagline bw-split-in-right">
+                <span class="sec-title__tagline__border"></span>News & articles
+            </h6>
+            <h3 class="sec-title__title bw-split-in-left">Latest Stories</h3>
+        </div>
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__border"></span>News & articles</h6><!-- /.sec-title__tagline -->
+        <div class="row gutter-y-30">
 
-                    <h3 class="sec-title__title bw-split-in-left">Latest Stories</h3><!-- /.sec-title__title -->
-                </div><!-- /.sec-title -->
-                <div class="row gutter-y-30">
-                    <div class="col-lg-5">
-                        @if($latestPost)
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms' style='--accent-color: #37B1C1;'>
-                            <div class="blog-card__image" style="height: 300px; object-fit:cover;">
-                                <img src="{{ asset('/storage/images/'.$latestPost->thumbnail) }}" alt="{{$latestPost->title}}" style="height: 300px; object-fit:cover;">
-                                <img src="{{ asset('/storage/images/'.$latestPost->thumbnail) }}" alt="{{$latestPost->title}}" style="height: 300px; object-fit:cover;">
-                                <a href="/b/{{$latestPost->link}}" target="_blank" class="blog-card__image__link">
-                                    <span class="sr-only">{{$latestPost->title}}</span>
-                                    <!-- /.sr-only -->
-                                </a>
-                                <div class="blog-card__date"><i class="icofont-ui-calendar"></i>{{$latestPost->created_at->format('j M, Y')}}</div><!-- /.blog-card__date -->
-                            </div><!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <ul class="list-unstyled blog-card__meta">
-                                    <li>
-                                        <a href="/b/{{$latestPost->link}}" target="_blank">
-                                            <img src="https://ui-avatars.com/api/?name={{$latestPost->user->first_name . '+' .$latestPost->user->last_name}}" alt="Author: {{$latestPost->user->first_name}} {{$latestPost->user->last_name}}">Author: {{$latestPost->user->first_name}} {{$latestPost->user->last_name}}
-                                        </a>
-                                    </li>
-                                </ul><!-- /.list-unstyled blog-card__meta -->
-                                <h3 class="blog-card__title"><a href="/b/{{$latestPost->link}}" target="_blank">{{$latestPost->title}}</a></h3><!-- /.blog-card__title -->
-                                <p class="blog-card__text">
-                                    {{$latestPost->excerpt}}
-                                </p><!-- /.blog-card__text -->
-                                <a href="/b/{{$latestPost->link}}" target="_blank" class="blog-card__link">
-                                    <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
-                                    <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                </a><!-- /.blog-card__link -->
-                            </div><!-- /.blog-card__content -->
-                        </div><!-- /.blog-card -->
-                        @else
-                        <div class="blog-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms' style='--accent-color: #37B1C1;'> There are no Posts yet. </div>
-                        @endif
-                    </div><!-- /.item -->
-                    <div class="col-lg-7">
-                        @if($otherPosts)
-                            @foreach($otherPosts as $post)
-                                <div class="blog-card blog-card--reverse wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms' style='--accent-color: #37B1C1;'>
-                                    <div class="blog-card__content">
-                                        <ul class="list-unstyled blog-card__meta">
-                                            <li>
-                                                <a href="/b/{{$post->link}}" target="_blank"><img src="https://ui-avatars.com/api/?name={{$post->user->first_name . '+' .$post->user->last_name}}" alt="Author: {{$post->user->first_name}} {{$post->user->last_name}}">Author: {{$post->user->first_name}} {{$post->user->last_name}}</a>
-                                            </li>
-                                        </ul><!-- /.list-unstyled blog-card__meta -->
-                                        <h3 class="blog-card__title">
-                                            <a href="/b/{{$post->link}}" target="_blank">{{$post->title}}</a>
-                                        </h3><!-- /.blog-card__title -->
-                                        <p class="blog-card__text">
-                                            {{$post->excerpt}}
-                                        </p><!-- /.blog-card__text -->
-                                        <a href="/b/{{$post->link}}" target="_blank" class="blog-card__link">
-                                            <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
-                                            <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
-                                        </a><!-- /.blog-card__link -->
-                                    </div><!-- /.blog-card__content -->
-                                    <div class="blog-card__image">
-                                        <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}">
-                                        <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}">
-                                        <a href="/b/{{$post->link}}" target="_blank" class="blog-card__image__link">
-                                            <span class="sr-only">{{$post->title}}</span>
-                                            <!-- /.sr-only --></a>
-                                    </div><!-- /.blog-card__image -->
-                                </div><!-- /.blog-card -->
-                            @endforeach
-                        @endif
-                    </div><!-- /.item -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.blog-one blog-one--page -->
+            <!-- Latest Post -->
+            <div class="col-lg-5">
+                @if($latestPost)
+                    <div class="blog-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms" style="--accent-color: #37B1C1;">
+                        <div class="blog-card__image" style="height:300px; object-fit:cover;">
+                            <img src="{{ $latestPost->thumbnail ? asset('/storage/images/'.$latestPost->thumbnail) : asset('assets/images/default-blog.jpg') }}" 
+                                 alt="{{ $latestPost->title }}" style="height:300px; object-fit:cover;">
+                            <a href="/b/{{ $latestPost->link }}" target="_blank" class="blog-card__image__link">
+                                <span class="sr-only">{{ $latestPost->title }}</span>
+                            </a>
+                            <div class="blog-card__date">
+                                <i class="icofont-ui-calendar"></i>{{ $latestPost->created_at->format('j M, Y') }}
+                            </div>
+                        </div>
+
+                        <div class="blog-card__content">
+                            <ul class="list-unstyled blog-card__meta">
+                                <li>
+                                    <a href="/b/{{ $latestPost->link }}" target="_blank">
+                                        <img src="https://ui-avatars.com/api/?name={{ $latestPost->user->first_name . '+' .$latestPost->user->last_name }}" 
+                                             alt="Author: {{ $latestPost->user->first_name }} {{ $latestPost->user->last_name }}">
+                                        Author: {{ $latestPost->user->first_name }} {{ $latestPost->user->last_name }}
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <h3 class="blog-card__title">
+                                <a href="/b/{{ $latestPost->link }}" target="_blank">{{ $latestPost->title }}</a>
+                            </h3>
+
+                            <p class="blog-card__text">{{ $latestPost->excerpt }}</p>
+
+                            <a href="/b/{{ $latestPost->link }}" target="_blank" class="blog-card__link">
+                                <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
+                                <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                @else
+                    <div class="blog-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms" style="--accent-color:#37B1C1;">
+                        <p>No blog posts available yet.</p>
+                    </div>
+                @endif
+            </div>
+
+            <!-- Other Posts -->
+            <div class="col-lg-7">
+                @forelse($otherPosts as $post)
+                    <div class="blog-card blog-card--reverse wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms" style="--accent-color:#37B1C1;">
+                        <div class="blog-card__content">
+                            <ul class="list-unstyled blog-card__meta">
+                                <li>
+                                    <a href="/b/{{ $post->link }}" target="_blank">
+                                        <img src="https://ui-avatars.com/api/?name={{ $post->user->first_name . '+' .$post->user->last_name }}" 
+                                             alt="Author: {{ $post->user->first_name }} {{ $post->user->last_name }}">
+                                        Author: {{ $post->user->first_name }} {{ $post->user->last_name }}
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <h3 class="blog-card__title">
+                                <a href="/b/{{ $post->link }}" target="_blank">{{ $post->title }}</a>
+                            </h3>
+
+                            <p class="blog-card__text">{{ $post->excerpt }}</p>
+
+                            <a href="/b/{{ $post->link }}" target="_blank" class="blog-card__link">
+                                <span class="blog-card__link__front"><span class="icofont-double-right"></span></span>
+                                <span class="blog-card__link__back"><span class="icofont-double-right"></span>Read More</span>
+                            </a>
+                        </div>
+
+                        <div class="blog-card__image">
+                            <img src="{{ $post->thumbnail ? asset('/storage/images/'.$post->thumbnail) : asset('assets/images/default-blog.jpg') }}"
+                                 alt="{{ $post->title }}">
+                            <a href="/b/{{ $post->link }}" target="_blank" class="blog-card__image__link">
+                                <span class="sr-only">{{ $post->title }}</span>
+                            </a>
+                        </div>
+                    </div>
+                @empty
+                    <div class="blog-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms" style="--accent-color:#37B1C1;">
+                        <p>No additional posts available.</p>
+                    </div>
+                @endforelse
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- /.blog-one blog-one--page -->
 
         <section class="cta-two">
             <div class="cta-two__shape" style="background-image: url(/assets/images/shapes/cta-2-shape-1.png);"></div>

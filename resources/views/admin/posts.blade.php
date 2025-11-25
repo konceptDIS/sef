@@ -2,6 +2,13 @@
 
 @section('content')
 
+@if(session('success'))
+    <div class="alert alert-success">{{ session('success') }}</div>
+@endif
+@if(session('error'))
+    <div class="alert alert-danger">{{ session('error') }}</div>
+@endif
+
 <main class="page-content">
     <!-- Start Breadcrumbbar -->
     <div class="breadcrumbbar">
@@ -65,9 +72,13 @@
                                                 <td>
                                                     <div class="btn-group btn-group-sm" role="group" aria-label="action buttons">
                                                         <a href="/admin/editPost/{{$rec->id}}" class="btn ps-1 btn-primary btn-sm" role="button"><i class="bi bi-pen-fill"></i> </a>
-                                                        <button type="button" class="btn ps-1 btn-danger"  onclick="deletePost('{{$rec->id}}')">
-                                                            <i class="bi bi-trash3-fill"></i>
-                                                        </button>
+                                                        <form action="{{ route('admin.deletePost', $rec->id) }}" method="POST" style="display:inline-block;" onsubmit="return confirm('Are you sure you want to delete this post?');">
+    @csrf
+    @method('DELETE')
+    <button type="submit" class="btn ps-1 btn-danger">
+        <i class="bi bi-trash3-fill"></i>
+    </button>
+</form>
                                                     </div>
                                                 </td>
                                             </tr>
